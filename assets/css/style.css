@@ -44,6 +44,24 @@ main .pageHeader{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+main .buttons{
+    color:white;
+    background-color: rgb(5, 5, 92);
+}
+main .buttons div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main .buttons a{
+    color:white;
+    text-decoration: none;
+}
+main .buttons a:hover{
+    color:white;
+    text-decoration: underline;
+}
 /*Footer menu*/
 footer{
     height: 30px;
